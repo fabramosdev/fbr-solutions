@@ -21,7 +21,7 @@ function Home() {
           <span>Rio de Janeiro</span>
         </div>
 
-        <Link to="/app" className="enter_app">
+        <Link to="/about" className="enter_app">
           <FiArrowRight size={26} color="rgba(0,0,0,0.6)" />
         </Link>
       </div>
