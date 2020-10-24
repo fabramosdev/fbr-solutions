@@ -4,7 +4,7 @@ import Aside from '../../components/Aside';
 
 import '../../styles/pages/about.css';
 
-function About() {
+function Contact() {
   return (
     <div id="page_about">
       <Aside />
@@ -12,4 +12,4 @@ function About() {
   );
 }
 
-export default About;
+export default Contact;
