@@ -9,8 +9,10 @@ function Aside() {
     <aside id="menu_aside">
 
       <header>
-        <img src={logoImg} alt="FBR Solutions" width="80" />
-        <span>FBR Solutions</span>
+        <Link to="/">
+          <img src={logoImg} alt="FBR Solutions" width="80" />
+          <span>FBR Solutions</span>
+        </Link>
 
         <Link to="/about"><h2>Sobre</h2></Link>
         <Link to="/map"><h2>Localização</h2></Link>

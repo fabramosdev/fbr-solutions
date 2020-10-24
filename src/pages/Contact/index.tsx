@@ -2,11 +2,11 @@ import React from 'react';
 
 import Aside from '../../components/Aside';
 
-import '../../styles/pages/about.css';
+import '../../styles/pages/contact.css';
 
 function Contact() {
   return (
-    <div id="page_about">
+    <div id="page_contact">
       <Aside />
     </div>
   );
